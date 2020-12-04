@@ -1,6 +1,6 @@
 # Macrobond
 
-This repository contains examples of how you can use the MacrobondAPI to R.
+This repository contains examples of how you can use the MacrobondAPI to R and Python.
 
 ## Documentation
 The official documentation for the API:s can be found here:
