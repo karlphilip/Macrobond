@@ -4,10 +4,10 @@ library(MacrobondAPI)
 library(tidyverse)
 
 # Obtaining the values and start date from the data set
-ts<-ts (1:50, frequency = 12, start = 2010) # Creating a time series with 50 observations and start date 2010
+ts<-ts (rnorm(50), frequency = 12, start = 2010) # Creating a time series with 50 observations and start date 2010
 xts<-as.xts(ts) # Converting the time series to XTS
 
-vector<-as.vector(xts[,1]) # Creating a vector of the data
+values<-as.vector(xts[,1]) # Creating a vector of the data
 
 startdate<-as.Date(index(xts)[1]) # Getting the startdate from the XTS object
 
