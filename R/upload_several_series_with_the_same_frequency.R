@@ -24,7 +24,7 @@ metadata<-data.frame(series, description, region, category, start.date)
 com<-"ih:mb:com:" # For uploading to Company Account
 dept<-"ih:mb:dept:" # For uploading to Department Account
 priv<-"ih:mb:priv:"# For uploading to Personal Account
-lib<-"ih:mb:lib" # For uploading to Library account
+lib<-"ih:mb:lib:" # For uploading to Library account
 
 # Looping to upload several series
 
