@@ -48,7 +48,7 @@ s = d.CreateSeriesObject(priv+names+todayshort, # Name, combining the account yo
                          frequency, # Frequency
                          sw.FULLWEEK,
                          startdate.to_pydatetime(), # Start date
-                         df.to_numpy(), 
+                         df.values.tolist(), 
                          m)
 d.UploadOneOrMoreSeries(s)
 print(description+" uploaded")
