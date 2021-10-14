@@ -44,7 +44,7 @@ for i in range(len(names)):
                          frequency, # Frequency
                          sw.FULLWEEK,
                          startdate[i].to_pydatetime(), # Start date
-                         df.iloc[:,i], 
+                         df.values[:,i].tolist(), 
                          m)
     d.UploadOneOrMoreSeries(s)
     print(description[i]+" uploaded")
