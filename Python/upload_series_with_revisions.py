@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 
-# Creating random monthly series called 'temp','depth','acceleration'
+# Creating a random monthly series called 'series'
 np.random.seed(2019)
 N = 24
 rng = pd.date_range('2019-01-01', freq='MS', periods=N)
